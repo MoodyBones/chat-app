@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'MyFont';
+  src:  url('./AftaSansThin-Italic.otf') format('otf'),
+        url('./AftaSansThin-Regular.otf') format('otf');
+        font-weight: 600;
+        font-style: normal;
+}
+
+.hello {
+  color: red;
+  font-family: 'MyFont';
+  background: url('./sleepy-koala.jpg');
+}
+

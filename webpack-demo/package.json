@@ -12,10 +12,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "file-loader": "^4.0.0",
+    "ttf-loader": "^1.0.2",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5"
   },
   "dependencies": {
-    "lodash": "^4.17.11"
+    "css-loader": "^3.0.0",
+    "lodash": "^4.17.11",
+    "style-loader": "^0.23.1"
   }
 }
