@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'MyFont';
-  src:  url('./AftaSansThin-Italic.otf') format('otf'),
-        url('./AftaSansThin-Regular.otf') format('otf');
+  src:  url('./AftaSansThin-Italic.otf'),
+        url('./AftaSansThin-Regular.otf');
         font-weight: 600;
         font-style: normal;
 }
