@@ -1,5 +1,10 @@
 # chat-app
 
+i having problem connecting Chatkit APi
+see updated tutorial
+https://scrimba.com/p/pxwbqS5/cy6NVvU3
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
