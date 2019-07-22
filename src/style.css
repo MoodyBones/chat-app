@@ -7,11 +7,11 @@ code {
 
 
 :root {
-  --main-color: #5ea3d0;
-  --secondary-color: white;
-  --main-text-color: #3e5869;
-  --secondary-text-color: #b0c7d6;
-  --send-message-form: #F5F5F5;
+  --main-color: #1e272e;
+  --secondary-color: #f2f2f2;
+  --main-text-color: #485460;
+  --secondary-text-color: #d2dae2;
+  --send-message-form: #34e7e4;
 }
 
 
@@ -23,7 +23,7 @@ html, body {
   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
   sans-serif;
   font-weight: 200;
-  color: 	#3e5869; 
+  color: 	 var(--main-text-color);
   -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
@@ -86,14 +86,22 @@ html, body {
   color: var(--secondary-color);
 }
 
+/* find out why the user agent stylesheet if overidding the specificity!!? */
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: 700;
+  font-size: .8rem;
+}
+
 .rooms-list .room a {
   color: var(--secondary-text-color);
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
 }
 
 .rooms-list .room.active a {
-  color: var(--secondary-color)
+  color: var(--send-message-form);
 }
 
 .new-room-form {
@@ -186,7 +194,6 @@ html, body {
   border-style: none;
   background: var(--send-message-form);
   font-weight: 200;
-
 }
 
 .send-message-form input:focus {
@@ -195,10 +202,12 @@ html, body {
 
 .send-message-form input::placeholder {
   color: var(--main-text-color);
+  font-size: 1rem;
 }
 
 .help-text {
   position: absolute;
   top: 10px;
 }
+
 
